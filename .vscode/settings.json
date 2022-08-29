@@ -1,17 +1,19 @@
 {
   "prettier.enable": true,
+  "prettier.singleQuote": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "css"
   },
   "editor.formatOnSave": true,
   "editor.bracketPairColorization.enabled": true,
-  "volar.codeLens.scriptSetupTools": true,
+  "volar.codeLens.scriptSetupTools": false,
   "volar.completion.preferredTagNameCase": "pascal",
   "volar.icon.preview": false,
   "volar.icon.splitEditors": false,
   "volar.vueserver.useSecondServer": true,
-  "html.format.wrapAttributes": "force"
+  "html.format.wrapAttributes": "force",
+  "eslint.format.enable": true
 }

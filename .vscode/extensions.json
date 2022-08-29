@@ -6,6 +6,6 @@
     "csstools.postcss",
     "esbenp.prettier-vscode",
     "antfu.unocss",
-    "sdras.vue-vscode-snippets",
+    "sdras.vue-vscode-snippets"
   ]
 }
