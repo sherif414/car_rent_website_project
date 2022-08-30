@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <nav class="grid grid-cols-12 items-center px-2rem py-1rem bg-white border-b">
+  <nav class="grid grid-cols-12 items-center px-2rem py-1rem bg-white border-b fixed top-0 left-0 w-full">
     <!-- logo -->
     <a
       href="#"
@@ -11,7 +11,7 @@
 
     <!-- search bar -->
     <div class="flex gap-x-4 col-span-4 border px-4 py-3 rounded-full">
-      <ISearch color="red" />
+      <ISearch />
       <input
         class="placeholder:text-secondary-400 text-3 focus:outline-none grow"
         type="search"
