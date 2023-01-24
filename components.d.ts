@@ -9,6 +9,7 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     CardRent: typeof import('./src/components/CardRent.vue')['default']
     CardShowcase: typeof import('./src/components/CardShowcase.vue')['default']
+    FooterBar: typeof import('./src/components/FooterBar.vue')['default']
     IBell: typeof import('./src/components/icons/IBell.vue')['default']
     IFilter: typeof import('./src/components/icons/IFilter.vue')['default']
     IGasStation: typeof import('./src/components/icons/IGasStation.vue')['default']
@@ -16,11 +17,13 @@ declare module '@vue/runtime-core' {
     IHeart: typeof import('./src/components/icons/IHeart.vue')['default']
     ISearch: typeof import('./src/components/icons/ISearch.vue')['default']
     ISettings: typeof import('./src/components/icons/ISettings.vue')['default']
+    IStars: typeof import('./src/components/icons/IStars.vue')['default']
     ISwitch: typeof import('./src/components/icons/ISwitch.vue')['default']
     IWheel: typeof import('./src/components/icons/IWheel.vue')['default']
     NavBar: typeof import('./src/components/NavBar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SideBar: typeof import('./src/components/SideBar.vue')['default']
     VDialog: typeof import('./src/components/VDialog.vue')['default']
   }
 }

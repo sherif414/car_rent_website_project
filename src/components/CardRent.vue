@@ -28,13 +28,11 @@
     </h3>
 
     <!-- second row -->
-    <div
-      class="flex justify-between [&_h4]:font-bold [&_span]:(font-medium text-3 text-secondary-300) [&>div]:grow gap-x-4"
-    >
+    <div class="flex justify-between [&_h4]:font-bold [&>div]:grow gap-x-4">
       <!-- column one -->
       <div class="border-r">
         <h4>Locations</h4>
-        <span class="flex gap-x-8">
+        <div class="flex gap-x-2 font-medium text-3 text-secondary-300">
           select your city
           <svg
             width="14"
@@ -50,13 +48,13 @@
               stroke-width="0.5"
             />
           </svg>
-        </span>
+        </div>
       </div>
 
       <!-- column two -->
       <div class="border-r">
         <h4>Date</h4>
-        <span class="flex gap-x-8">
+        <div class="flex gap-x-2 font-medium text-3 text-secondary-300">
           select your date
           <svg
             width="14"
@@ -72,13 +70,13 @@
               stroke-width="0.5"
             />
           </svg>
-        </span>
+        </div>
       </div>
 
       <!-- column three -->
       <div>
         <h4>Time</h4>
-        <span class="flex gap-x-8">
+        <span class="flex gap-x-2 ont-medium text-3 text-secondary-300">
           select your time
           <svg
             width="14"

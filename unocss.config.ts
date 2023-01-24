@@ -2,7 +2,7 @@ import {
   defineConfig,
   presetIcons,
   presetUno,
-  presetWebFonts,
+  // presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -77,6 +77,7 @@ export default defineConfig({
         900: '#102E7A',
       },
       border: '#C3D4E970',
+      main: '#F1F1F1',
     },
   },
   shortcuts: [],
@@ -85,11 +86,6 @@ export default defineConfig({
     presetIcons({
       scale: 1.2,
       warn: true,
-    }),
-    presetWebFonts({
-      fonts: {
-        sans: 'Poppings',
-      },
     }),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
