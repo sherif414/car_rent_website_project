@@ -33,7 +33,7 @@
   </article>
 </template>
 <script setup lang="ts">
-interface Car {
+interface Props {
   id: number
   name: string
   type: string
@@ -43,7 +43,7 @@ interface Car {
   gear: 'manual' | 'automatic'
   capacity: number
 }
-defineProps<Car>()
+defineProps<Props>()
 
 let isFav = $ref(false)
 </script>
